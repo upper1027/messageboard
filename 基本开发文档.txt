@@ -1,0 +1,24 @@
+简单的实现了一下留言板的功能
+登陆界面写的非常简单，而且没有验证码的验证和注册功能
+
+
+开发工具
+linux服务器用的腾讯云的contos7
+连接服务器用的xshell
+数据库用的navicat
+编辑器用的phpStorm
+游览器用的chrome
+一些接口的测试用的postman
+
+测试网址：ryan-chen.com:18306
+测试账号：root
+测试密码：123456
+
+因内容较少，
+所有方法写在了Index控制器中
+
+数据库有两张表，user表和message_board表，user表记录用户信息， message_board表记录留言信息，
+模型层映射两个对象，User和Message_board，
+
+视图对应的index控制器（文件夹） 方法（php文件，index和login）
+用了jquery和bootstrap框架
